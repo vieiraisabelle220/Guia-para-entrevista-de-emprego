@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Entrevista de Emprego</title>
+    <link rel="stylesheet" href="simulação da entrevista.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Simulação de Entrevista</h1>
+        <p>Chame um amigo(a) para avaliar suas Respostas</p>
+
+        <div id="question-box">
+            <p id="question">Clique em começar para iniciar!</p>
+        </div>
+
+        <textarea id="user-answer" placeholder="Digite sua resposta aqui..." disabled></textarea>
+
+        <button id="start-btn">Começar</button>
+        <button id="next-btn" style="display:none;">Próxima Pergunta</button>
+
+        <div id="evaluation-section" style="display:none;">
+            <p>Avaliar resposta:</p>
+            <button class="evaluation-btn" data-feedback="boa">Está boa</button>
+            <button class="evaluation-btn" data-feedback="melhorar">Precisa melhorar</button>
+        </div>
+
+        <p id="feedback"></p>
+    </div>
+
+    <script src="simulação da entrevista.js"></script>
+</body>
+</html>

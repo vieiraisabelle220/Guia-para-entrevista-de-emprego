@@ -1,0 +1,59 @@
+body {
+      margin: 0;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background: rgb(252, 251, 251);
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+    header {
+      height: 100vh;
+      background: url(WhatsApp\ Image\ 2025-12-03\ at\ 12.25.51.jpeg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header h1 span {
+      color: #4ab3ff;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-top: 10px;
+    }
+    .btn {
+      margin-top: 20px;
+      background: #4ab3ff;
+      color: #ffffff;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #79c8ff;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #4ab3ff;
+    }
+    .card {
+      background:rgb(230, 224, 224);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
